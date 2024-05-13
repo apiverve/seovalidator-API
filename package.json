@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/seovalidator",
+  "version": "1.0.0",
+  "description": "SEO Validator is a simple tool for validating SEO metrics. It returns the SEO metrics of a web page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/seovalidator-API.git"
+  },
+  "keywords": [
+    "seo validator"," seo validator api"," seo validator tool"," seo validator software"," seo validator service"," seo validator library"," seo validator sdk"," seo validator code"," seo validator script"," seo validator program"," seo validator application"," seo validator app"," seo validator utility"," seo validator helper"," seo validator helper tool"," seo validator helper software"," seo validator helper service"," seo validator helper library"," seo validator helper sdk"," seo validator helper code"," seo validator helper script"," seo validator helper program"," seo validator helper application"," seo validator helper app"," seo validator helper utility"," seo validator helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/seovalidator-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/seovalidator-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
