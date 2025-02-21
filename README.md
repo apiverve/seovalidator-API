@@ -73,10 +73,9 @@ api.execute(query, function (error, data) {
   "data": {
     "url": "https://ebay.com",
     "passed": false,
-    "entries": 4,
+    "entries": 3,
     "output": [
-      "There are 15 'img' tag without alt attribute.",
-      "There are 453 'a' tag without rel attribute.",
+      "There are 319 'a' tag without rel attribute.",
       "This HTML does not have 'meta name=descriptions' in 'head'",
       "This HTML does not have 'meta name=keywords' in 'head'"
     ]
@@ -107,7 +106,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
