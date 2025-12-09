@@ -1,0 +1,35 @@
+{
+  "name": "@apiverve/seovalidator",
+  "version": "1.1.12",
+  "description": "SEO Validator is a simple tool for validating SEO metrics. It returns a list of issues that need to be fixed to improve the SEO metrics of a web page.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "mocha",
+    "example": "node examples/basic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/seovalidator-api.git",
+    "directory": "npm"
+  },
+  "keywords": [
+    "seo validator", "seo validator api", "seo validator tool", "seo validator software", "seo validator service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/seovalidator-api/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/seovalidator?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.13.2"
+  }
+}
